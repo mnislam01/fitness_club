@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#header{
+    background-image: url("../../media/images/canva-girl-boxing.jpg");
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.navbar-nav li a{
+    float: right;
+    color: #fff !important;
+}
+
+.navbar-toggler{
+    
+    border: none !important;
+    outline: none !importnat;
+    
+}
+
+nav .fa-bars{
+    color: #fff !important;
+    font-size: 26px;
+}
+
+.welcome{
+    padding: 50px 100px;
+    margin-top: -140px;
+    background-color: #fff;
+    box-shadow: 0 0 20px 7px rgba(0,0,0,0.2);
+    
+}
+
+.welcome h1{
+    color: #333;
+}
+
+
+#about{
+    
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#about .col-md-6{
+    
+    padding: 20px 10px;
+}
+
+
+#about h3{
+    
+    margin: 20px auto;
+}
+
+#services{
+    
+    background-color: #efefef;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#services .col-md-4{
+    padding: 20px;
+}
+
+#services .col-md-4 h3{
+    padding: 5px;
+}
+
+#services .col-md-4 img{
+    height: 100px;
+    width: 100px;
+}
+
+#services .col-md-4 p{
+    
+    padding: 5px;
+    text-align: justify;
+}
+
+
+#features{
+    
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url("../../media/images/features-background.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    
+}
+
+#features .col-md-6{
+    
+    padding: 20px;
+}
+
+
+#features .col-md-6 img{
+    
+    height: 200px;
+    width: 400px;
+}  
+
+.feature-box {
+    
+    height: 120px;
+}
+
+
+.feature-box .feature-left{
+    height: 300px;
+    width: 20%;
+    float: left;
+}
+
+.feature-box .feature-left .fas{
+    padding: 13px;
+    font-size: 50px;
+}
+
+.feature-box .feature-right{
+    
+    height: 300px;
+    width: 80%;
+}
+
+
+.feature-box .feature-right h3{
+    
+    padding-top: 10px;
+    padding-left: 15px;
+    
+    text-align: left;
+}
+
+
+.feature-box .feature-right p{
+    
+    padding-left: 15px;
+    
+    text-align: left;
+    
+}
+
+
+#testimonials{
+    
+    
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+}
+
+#testimonials .col-md-4{
+    
+    
+    padding: 10px 30px;
+    
+}
+
+#testimonials img{
+    
+    width: 100px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: -30px;
+    margin-top: -30px;
+    border: 5px solid #fff;
+    margin-bottom: 30px;
+    
+    
+}
+
+.review{
+    
+    font-size: 16px;
+    padding: 10px 10px 10px 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.2);
+}
+
+
+.review .fab{
+    color: #013f73;
+}
+
+#testimonials span{
+    color: #013f73;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+#testimonials h1{
+    margin-bottom: 20px;
+    color: #013f73;
+}
+
+
+.subscribe {
+    
+    
+    padding: 50px 20px;
+    background-color: #013f7e;
+    position: relative;
+    box-shadow: 0 0 20px 7px rgba(0,0,0,0.2);
+    margin-bottom: -160px;
+    
+}
+
+.subscribe h1, .subscribe p{
+    
+    color: #fff;
+}
+
+
+
+.subscribe .input-group{
+    
+    border-radius: 30px;
+    background: #fff;
+    max-width: 500px;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+
+
+.subscribe .form-control{
+    
+    border: none;
+    background: transparent;
+}
+
+.subscribe .form-control:focus{
+    
+    box-shadow: none;
+    background: transparent;
+}
+
+
+.subscribe .input-group-append{
+    
+    background: linear-gradient(to right, #1c035b, #5c8bef);
+    border-radius: 30px;
+}
+
+.subscribe .input-group-text{
+    
+    background: transparent;
+    border: none;
+    color: #fff;
+}
+
+
+.subscribe .btn:focus{
+    box-shadow: none;
+    
+    
+}
+
+#footer {
+    margin-top: 80px;
+    padding: 100px;
+    background-color: #efefef;
+    color: #013f7e;
+    
+}
+
+#footer h1{
+    
+    font-size: 15px;
+    text-align: left;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    
+}
+
+
+
+#footer p{
+    
+    margin-top: 25px;
+    margin-bottom: 25px;
+    
+}
